@@ -1,1 +1,25 @@
+/* Base Styles */
+body {
+  background-color: #FFFAFA;
+  font-family: 'Roboto Slab', serif;
+}
 
+img {
+  max-width: 100%;
+}
+
+/* Header */
+header {
+  background-color: #5F9EA0;
+}
+
+header h1 {
+  font-size: 75px;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 20px;
+  color: #FFFAFA;
+}
+
+header nav {
+  
+}
