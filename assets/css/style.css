@@ -21,5 +21,65 @@ header h1 {
 }
 
 header nav {
-  
+  float: right;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  color: #FFFAFA;
+  text-decoration: none;
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  color: #FFFAFA;
+}
+
+/* Greeting */
+#greeting {
+  background-image: url(https://i.pinimg.com/736x/3f/91/e9/3f91e934644f16c097b0060e7c6381f2--fairytale-characters-the-characters.jpg);
+  background-size: cover;
+  height: 500px;
+}
+
+#greeting h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 55px;
+  color: #FFFAFA;
+  padding: 180px 0;
+}
+
+/* Discover */
+#discover {
+  height: 500px;
+  padding: 40px 0;
+}
+
+#discover h2 {
+  font-size: 55px;
+  font-family: "Montserrat", sans-serif;
+  color: #5F9EA0;
+  padding: 15px 0;
+}
+
+#discover h3 {
+  font-size: 45px;
+  color: #333;
+  padding-bottom: 15px;
+}
+
+#discover p {
+  font-size: 20px;
+  color: #333;
+  line-height: 32px;
+}
+
+/* Map */
+#map {
+  border: 2px solid red;
+  height: 400px;
 }
