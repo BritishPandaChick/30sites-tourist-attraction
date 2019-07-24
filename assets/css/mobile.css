@@ -1,0 +1,42 @@
+/* Base Styles */
+body {
+  background-color: #FFFAFA;
+  font-family: 'Roboto Slab', serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Header */
+header {
+  background-color: #5F9EA0;
+  display: flex;
+  flex-direction: column;
+}
+
+header h1 {
+  font-size: 75px;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 20px;
+  color: #FFFAFA;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  color: #FFFAFA;
+  text-decoration: none;
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  color: #FFFAFA;
+}
