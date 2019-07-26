@@ -33,6 +33,7 @@ header nav ul li a {
   text-decoration: none;
   padding-left: 15px;
   font-weight: bold;
+  font-size: 20px;
 }
 
 header nav ul li a:hover {
@@ -179,6 +180,15 @@ header nav ul li a:hover {
 
 #directory nav ul li a:hover {
   color: #7B68EE;
+}
+
+#directory h3 {
+  font-size: 45px;
+  padding-bottom: 15px;
+}
+
+#directory form input {
+  width: 80%;
 }
 
 /* Footer */

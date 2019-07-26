@@ -1,0 +1,213 @@
+/* Base Styles */
+body {
+  background-color: #FFFAFA;
+  font-family: 'Roboto Slab', serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Header */
+header {
+  background-color: #5F9EA0;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 65px;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFAFA;
+  padding-left: 20px;
+}
+
+header nav ul li a {
+  color: #FFFAFA;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+header nav ul li a:hover {
+  color: #FFFAFA;
+}
+
+/* Greeting */
+#greeting {
+  background-image: url(https://i.pinimg.com/736x/3f/91/e9/3f91e934644f16c097b0060e7c6381f2--fairytale-characters-the-characters.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+}
+
+#greeting h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 55px;
+  color: #FFFAFA;
+  padding: 180px 0;
+}
+
+/* Discover */
+#discover {
+  height: 100%;
+  padding: 20px 0;
+}
+
+#discover h2 {
+  font-size: 55px;
+  font-family: "Montserrat", sans-serif;
+  color: #5F9EA0;
+  padding-bottom: 15px;
+}
+
+#discover h3 {
+  font-size: 45px;
+  color: #333;
+  padding-bottom: 15px;
+}
+
+#discover p {
+  font-size: 18px;
+  color: #333;
+  line-height: 32px;
+}
+
+/* Map */
+#map {
+  border: 2px solid #5F9EA0;
+  height: 100%;
+  padding: 20px 0;
+}
+
+#map h2 {
+  font-size: 55px;
+  font-family: "Montserrat", sans-serif;
+  color: #5F9EA0;
+  padding-bottom: 20px;
+}
+
+#map iframe {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.directions {
+  margin-top: 15px;
+}
+
+#map h3 {
+  font-size: 45px;
+  color: #333;
+}
+
+#map p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #333;
+}
+
+/* Video */
+#video {
+  height: 850px;
+  padding: 40px 0;
+}
+
+#video h2 {
+  font-size: 55px;
+  font-family: "Montserrat", sans-serif;
+  color: #5F9EA0;
+}
+
+#video p {
+  font-size: 18px;
+  line-height: 32px;
+  padding-top: 15px;
+}
+
+#video iframe {
+  width: 100%;
+  height: 500px;
+}
+
+/* Festivals */
+#festivals {
+  background-image: url(http://moviefanficchains.com/RPG/OUaT/MainStreet1.jpg);
+  background-size: cover;
+  background-position: left left;
+  height: 500px;
+}
+
+.message {
+  padding: 97px 0;
+  color: #FFFAFA;
+}
+
+#festivals h3 {
+  font-size: 45px;
+}
+
+#festivals h2 {
+  font-size: 55px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#festivals button {
+  margin-top: 15px;
+}
+
+/* Directory */
+#directory {
+  height: 100%;
+  padding: 20px 0;
+}
+
+#directory nav ul li {
+  list-style-type: none;
+}
+
+#directory nav ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 35px;
+  color: #333;
+}
+
+#directory nav ul li a:hover {
+  color: #7B68EE;
+}
+
+#directory h3 {
+  font-size: 45px;
+  padding-bottom: 15px;
+}
+
+#directory form input {
+  width: 80%;
+}
+
+/* Footer */
+footer {
+  background-color: #5F9EA0;
+  height: 75px;
+  padding: 15px 0;
+}
+
+footer p {
+  font-size: 16px;
+  color: #FFFAFA;
+}
+
+footer nav ul li {
+  display: inline-block;
+  padding-left: 15px;
+}
+
+footer nav ul li i {
+  color: #FFFAFA;
+  text-decoration: none;
+}
+
+footer nav ul li i:hover {
+  color:#7B68EE;
+}
